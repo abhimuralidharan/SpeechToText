@@ -12,6 +12,10 @@
 		383A6CB31E8E3AA000B58D54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383A6CB11E8E3AA000B58D54 /* Main.storyboard */; };
 		383A6CB51E8E3AA000B58D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383A6CB41E8E3AA000B58D54 /* Assets.xcassets */; };
 		383A6CB81E8E3AA000B58D54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383A6CB61E8E3AA000B58D54 /* LaunchScreen.storyboard */; };
+		383A6CC21E8E402B00B58D54 /* test.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 383A6CC11E8E402B00B58D54 /* test.m4a */; };
+		38BC0E4E1E922ABC004DE206 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38BC0E4D1E922ABC004DE206 /* test.mp3 */; };
+		38BC0E501E922B2D004DE206 /* test1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38BC0E4F1E922B2D004DE206 /* test1.mp3 */; };
+		38BC0E521E922BB8004DE206 /* test2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38BC0E511E922BB8004DE206 /* test2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		383A6CB41E8E3AA000B58D54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		383A6CB71E8E3AA000B58D54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		383A6CB91E8E3AA000B58D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383A6CC11E8E402B00B58D54 /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
+		38BC0E4D1E922ABC004DE206 /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
+		38BC0E4F1E922B2D004DE206 /* test1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test1.mp3; sourceTree = "<group>"; };
+		38BC0E511E922BB8004DE206 /* test2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 				383A6CAF1E8E3AA000B58D54 /* ViewController.swift */,
 				383A6CB11E8E3AA000B58D54 /* Main.storyboard */,
 				383A6CB41E8E3AA000B58D54 /* Assets.xcassets */,
+				38BC0E511E922BB8004DE206 /* test2.mp3 */,
+				38BC0E4D1E922ABC004DE206 /* test.mp3 */,
+				383A6CC11E8E402B00B58D54 /* test.m4a */,
+				38BC0E4F1E922B2D004DE206 /* test1.mp3 */,
 				383A6CB61E8E3AA000B58D54 /* LaunchScreen.storyboard */,
 				383A6CB91E8E3AA000B58D54 /* Info.plist */,
 			);
@@ -125,7 +137,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				383A6CB81E8E3AA000B58D54 /* LaunchScreen.storyboard in Resources */,
+				38BC0E4E1E922ABC004DE206 /* test.mp3 in Resources */,
 				383A6CB51E8E3AA000B58D54 /* Assets.xcassets in Resources */,
+				383A6CC21E8E402B00B58D54 /* test.m4a in Resources */,
+				38BC0E501E922B2D004DE206 /* test1.mp3 in Resources */,
+				38BC0E521E922BB8004DE206 /* test2.mp3 in Resources */,
 				383A6CB31E8E3AA000B58D54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +318,7 @@
 				383A6CBE1E8E3AA000B58D54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
